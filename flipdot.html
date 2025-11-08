@@ -223,7 +223,7 @@
         tctx.textBaseline = 'top';
         tctx.textAlign = 'left';
     
-        // --- Vertical Centering (NEW LOGIC) ---
+        // --- Vertical Centering ---
         if (centerY) {
             const textHeight = size * dotSize; // Total text height in pixels
             // Calculate the difference between grid height and text height, and divide by 2
@@ -312,7 +312,7 @@
       // --- 7. Initialization (Called once on load) ---
       buildBtn.click();
 
-})(); // <-- CRITICAL FIX: The missing closing })();
+})();
 </script>
 </body>
 </html>
